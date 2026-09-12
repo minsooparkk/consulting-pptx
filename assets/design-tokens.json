@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "units": "inches",
+  "slide": {"width": 13.333333, "height": 7.5, "background": "FFFFFF"},
+  "font": {"family": "Pretendard", "body_min_pt": 14},
+  "colors": {
+    "text": "1F2937", "muted": "6B7280", "accent": "1C3F7D", "secondary_blue": "2F5AA8",
+    "navy": "16294F", "pale_blue": "EFF6FF", "light_gray": "F7F8FA", "line": "D7DCE3",
+    "light_blue": "A9C2E8", "white": "FFFFFF", "band_left": "0F1F3F", "band_right": "1C3F7D"
+  },
+  "content_layout": {
+    "title_band": {"x": 0, "y": 0, "w": 13.333333, "h": 1.05},
+    "title": {"placeholder_idx": 0, "x": 0.666667, "y": 0.30, "w": 12.0, "h": 0.60, "font_pt": 30, "bold": true, "color": "FFFFFF", "align": "left", "line_spacing": 1.1, "paragraph_spacing_pt": 0, "margin_in": 0},
+    "separator": {"x": 0.666667, "y": 1.05, "w": 12.0, "color": "1C3F7D", "width_pt": 1},
+    "header": {"placeholder_idx": 1, "x": 0.666667, "y": 1.275, "w": 12.0, "h": 0.90, "font_pt": 18, "bold": true, "color": "1F2937", "align": "left", "line_spacing": 1.1, "paragraph_spacing_pt": 0, "margin_in": 0, "preferred_lines": 2, "max_lines": 3},
+    "body": {"x": 0.666667, "y": 2.475, "w": 12.0, "bottom": 6.825},
+    "callout": {"x": 0.666667, "y": 6.13, "w": 12.0, "h": 0.67, "background": "16294F", "text_color": "FFFFFF", "font_pt": 15}
+  },
+  "footer": {
+    "document_title": {"x": 0.666667, "y": 7.125, "w": 11.10, "h": 0.225, "font_pt": 10, "bold": false, "color": "6B7280", "align": "left"},
+    "page_number": {"placeholder_idx": 12, "x": 12.05, "y": 7.125, "w": 0.617, "h": 0.225, "font_pt": 10, "bold": false, "color": "6B7280", "align": "right"}
+  },
+  "cover": {"band_height": 0.444, "title_font_pt": 38, "title_bold": true, "subtitle_font_pt": 22, "primary_title_color": "1F2937", "highlight_title_color": "1C3F7D"},
+  "body_type": {"subheading_pt": [17, 18], "text_pt": [15, 16], "table_pt": 14.5, "diagram_pt": [14, 16]},
+  "table": {"header_fill": "16294F", "header_text": "FFFFFF", "body_fills": ["FFFFFF", "F7F8FA"], "line_color": "D7DCE3", "cell_margin_left_in": 0.14, "cell_margin_right_in": 0.14, "cell_margin_top_in": 0.09, "cell_margin_bottom_in": 0.06}
+}
